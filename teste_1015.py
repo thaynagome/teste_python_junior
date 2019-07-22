@@ -23,5 +23,5 @@ y2 = float(y2)
 dist =  math.sqrt(((x2-x1)**2)+((y2-y1)**2))
 
 #Mostra para o usuário o resultado com duas casas decimais após a virgula
-print ("Sua distância é de ", "%.2f" %dist)
+print ("%.4f" %dist)
 

@@ -11,5 +11,5 @@ else:
         carroy = Y * 2
 
 #Apresenta resultado
-print ("O tempo necessário é ",carroy,"minutos")
+print (carroy,"minutos")
 
