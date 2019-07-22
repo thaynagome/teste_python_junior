@@ -18,9 +18,9 @@ meses = (dias % 365) // 30
 dias = (dias % 365) - (((dias % 365)//30) * 30)
 
 
-print (anos ,"ano(s)")
-print (meses ,"mes(es)")
-print (dias ,"dia(s)")
+print (.format(anos) ,"ano(s)")
+print (.format(meses) ,"mes(es)")
+print (.format(dias) ,"dia(s)")
 
 
 
