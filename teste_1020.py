@@ -7,11 +7,11 @@ anos = dias // 365
 # Obtem o resto da operação e divide por 30 com objetivo de obter a parte inteira
 meses = (dias % 365) // 30
 
-'''Esta parte obterá o resto da operaçao, depois resolverá a operação em 
-    parenteses que irá obter o resto da operação indicada, dividir por 30
-    obtendo sua parte inteira, e depois e obter esse resultado irá multiplicar
-    por 30, que por fim, resolverá os parenteses da direita e subtrairá da
-    primeira operação'''
+    #Esta parte obterá o resto da operaçao, depois resolverá a operação em 
+    #parenteses que irá obter o resto da operação indicada, dividir por 30
+    #obtendo sua parte inteira, e depois e obter esse resultado irá multiplicar
+    #por 30, que por fim, resolverá os parenteses da direita e subtrairá da
+    #primeira operação
 dias = (dias % 365) - (((dias % 365)//30) * 30)
 
 
