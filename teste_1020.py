@@ -1,3 +1,6 @@
+#!/usr/bin/env python 
+# -- coding: utf-8 --
+
 #Solicita inserção de dias de idade do usuario
 dias = int(input("Digite sua idade em dias: "))
 

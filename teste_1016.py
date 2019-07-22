@@ -1,3 +1,6 @@
+#!/usr/bin/env python 
+# -- coding: utf-8 --
+
 #Solicita que o usuario digite a velocidade do carro Y em KM
 Y = int(input("Digite a velocidade do carro Y em Km: "))
 

@@ -1,4 +1,8 @@
-import math #Importa a biblioteca para a raiz quadrada
+#!/usr/bin/env python 
+# -- coding: utf-8 --
+
+#Importa a biblioteca para a raiz quadrada
+import math 
 
 #Solicitará em uma linha a inserção dos valores em uma linha
 x1,y1 = input("Digite os valores de x1 e y1: ").split(" ")
